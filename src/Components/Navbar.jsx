@@ -1,6 +1,6 @@
 import SearchBar from "./searchBar";
 import classes from "../styles/Navbar.module.css";
-import Logo from "../assets/Images/Learn Daily.jpg";
+import Logo from "../assets/Images/Home Page/Learn Daily.jpg";
 export default function Navbar() {
   return (
     <div>

@@ -1,5 +1,5 @@
 import classes from "../styles/footer.module.css";
-import footerLogo from "../assets/Images/Learn_Daily_black-removebg-preview.png";
+import footerLogo from "../assets/Images/Home Page/Learn_Daily_black-removebg-preview.png";
 export default function Footer() {
   return (
     <div>
