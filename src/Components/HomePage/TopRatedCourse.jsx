@@ -1,4 +1,5 @@
 import classes from "../../styles/Topratedcoure.module.css";
+
 export default function TopRatedCourse(props) {
   const { image, price, duration, instructorName, institution, department } =
     props;

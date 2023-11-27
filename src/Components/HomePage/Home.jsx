@@ -4,10 +4,11 @@ import Footer from "../Footer";
 import MainImage from "../../assets/Images/Learn Daily Cover Photo.png";
 import classes from "../../styles/Homepagemain.module.css";
 import TopRatedCourse from "./TopRatedCourse";
-import Course1 from "../../assets/Images/biology.jpg";
-import Course2 from "../../assets/Images/current electricity.jpg";
-import Course3 from "../../assets/Images/matrix.jpg";
-import Course4 from "../../assets/Images/organic.jpg";
+import Course1 from "../../assets/Images/Home Page/biology.jpg";
+import Course2 from "../../assets/Images/Home Page/current electricity.jpg";
+import Course3 from "../../assets/Images/Home Page/matrix.jpg";
+import Course4 from "../../assets/Images/Home Page/organic.jpg";
+
 export default function HomePage() {
   return (
     <div>
