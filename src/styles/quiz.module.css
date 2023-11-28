@@ -1,0 +1,31 @@
+.quizSection {
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+  height: 100%;
+  align-items: center;
+}
+.quizContainer {
+  width: 60%;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.options {
+  margin-top: 20px;
+}
+.nextButton {
+  color: white;
+  background-color: rgb(37, 37, 255);
+  font-size: 25px;
+  padding: 8px;
+  width: 10%;
+  height: 400px;
+  border-radius: 0.2em;
+}
+.nextButton:hover {
+  cursor: pointer;
+  background-color: blue;
+}
