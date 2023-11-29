@@ -21,8 +21,6 @@ function App() {
           <Route path="*" element={<Error />} />
         </Routes>
       </BrowserRouter>
-    </div>
-  );
 }
 
 export default App;
