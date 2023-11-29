@@ -1,31 +1,34 @@
 import SearchBar from "./searchBar";
 import classes from "../styles/Navbar.module.css";
 import Logo from "../assets/Images/Home Page/Learn Daily.jpg";
+import { NavLink } from "react-router-dom";
 export default function Navbar() {
   return (
     <div>
       <div className={classes.navbar}>
         <div className={classes.logo}>
-          <img src={Logo} width="250px" height="70px" alt="" />
+          <NavLink to="/">
+            <img src={Logo} width="250px" height="70px" alt="" />
+          </NavLink>
         </div>
         <SearchBar />
         <ul className={classes.navitems}>
           <li>
-            <a href="#">Home</a>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <a href="#">About</a>
+            <NavLink to="/about">About</NavLink>
           </li>
           <li>
-            <a href="#">Courses</a>
+            <NavLink to="/courselist">Courses</NavLink>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <NavLink to="/contact">Contact</NavLink>
           </li>
           <li>
-            <a href="#">
+            <NavLink to="/login">
               <button className={classes.signupBtn}>Login</button>
-            </a>
+            </NavLink>
           </li>
         </ul>
       </div>

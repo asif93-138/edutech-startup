@@ -14,7 +14,7 @@
   background-color: rgb(242, 249, 249);
   margin-top: 50px;
   width: 30%;
-  height: 82vh;
+  height: 85vh;
   border: 2px solid rgb(152, 125, 125);
   display: flex;
   flex-direction: column;
@@ -44,4 +44,11 @@ button {
   font-weight: bold;
   margin-left: auto;
   margin-right: auto;
+}
+.loginText {
+  color: blue;
+  border-bottom: 1px solid blue;
+}
+.loginText:hover {
+  cursor: pointer;
 }

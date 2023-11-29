@@ -4,6 +4,7 @@ import Container from "../Container";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 import Input from "../textinput";
+import { NavLink } from "react-router-dom";
 export default function Login() {
   return (
     <div>
@@ -18,7 +19,10 @@ export default function Login() {
               <Input type="submit" value="Log In" />
             </Form>
             <div className={classes.logIn}>
-              একাউন্ট করা নেই ?<a href="">একাউন্ট তৈরী করুন</a>
+              একাউন্ট করা নেই ?
+              <NavLink to="/signup">
+                <span className={classes.signupText}>একাউন্ট তৈরী করুন</span>
+              </NavLink>
             </div>
             <div className={classes.text}>OR</div>
             <button type="button">SignUp with Google</button>
