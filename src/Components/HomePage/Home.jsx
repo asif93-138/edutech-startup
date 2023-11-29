@@ -1,7 +1,7 @@
 import Container from "../Container";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
-import MainImage from "../../assets/Images/Learn Daily Cover Photo.png";
+import MainImage from "../../assets/Images/Home Page/Learn Daily Cover Photo.png";
 import classes from "../../styles/Homepagemain.module.css";
 import TopRatedCourse from "./TopRatedCourse";
 import Course1 from "../../assets/Images/Home Page/biology.jpg";
