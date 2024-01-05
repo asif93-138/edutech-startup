@@ -1,6 +1,3 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import "./styles/App.css";
 import SignUp from "./Components/SignUp/signup";
 import Login from "./Components/LoginPage/Login";
 import Quiz from "./Components/Quiz/Quiz";
@@ -10,7 +7,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Error from "./Components/Error";
 function App() {
   return (
-    <div>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -21,6 +17,7 @@ function App() {
           <Route path="*" element={<Error />} />
         </Routes>
       </BrowserRouter>
+  )
 }
 
 export default App;

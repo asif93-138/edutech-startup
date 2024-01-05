@@ -1,41 +1,33 @@
-import classes from "../styles/footer.module.css";
+
 import footerLogo from "../assets/Images/Home Page/Learn_Daily_black-removebg-preview.png";
 export default function Footer() {
   return (
-    <div>
-      <div className={classes.footer}>
-        <div className={classes.footerContainer}>
-          <div className={classes.footerLogo}>
-            <img src={footerLogo} alt="Your Logo" width="250px" height="70px" />
-            <h1>Your Website</h1>
-          </div>
-          <div className={classes.footerLinks}>
-            <ul>
-              <li>
-                <a href="#">Home</a>
-              </li>
-              <li>
-                <a href="#">About</a>
-              </li>
-              <li>
-                <a href="#">Services</a>
-              </li>
-              <li>
-                <a href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
-          <div className={classes.footerContact}>
-            <p>Contact Us:</p>
-            <p>Email: dailylearn247@gmail.com</p>
-            <p>Phone: +88 01891798387</p>
-          </div>
-        </div>
-        <div className={classes.footerBottom}>
-          <p>&copy; 2023 Your Website. All rights reserved.</p>
-          <p>Designed by Minhaz Chowdhury</p>
-        </div>
-      </div>
-    </div>
+    <footer className="text-bg-secondary mt-5">
+      <section className="d-flex align-items-center footer-flex py-3">
+      <h3 className="logo-txt m-0 border-end border-white p-3 px-sm-5 py-sm-4 f-b"><b>Learn Daily</b></h3>
+     <article className="fl-sp">
+     <p className="text-center">
+      <i className="bi px-3 fs-3 bi-facebook"></i>
+      <i className="bi px-3 fs-3 bi-linkedin"></i>
+      <i className="bi px-3 fs-3 bi-youtube"></i>
+      </p>
+      <ul className="d-flex footer-links p-0">
+          <li className="nav-item px-2">
+            <a className="nav-link link-txt link-txt-f" href="/">Home</a>
+          </li>
+          <li className="nav-item px-2">
+            <a className="nav-link link-txt link-txt-f" href="/about">About</a>
+          </li>
+          <li className="nav-item px-2">
+            <a className="nav-link link-txt link-txt-f" href="/courselist">Courses</a>
+          </li>
+          <li className="nav-item px-2">
+            <a className="nav-link link-txt link-txt-f" href="/contact">Contact</a>
+          </li>
+        </ul>
+     </article>
+      </section>
+      <p className="text-center text-bg-dark py-2">Copyright &#169; 2024</p>
+    </footer>
   );
 }

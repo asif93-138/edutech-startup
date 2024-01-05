@@ -1,8 +1,8 @@
 import Navbar from "../Navbar";
-import Container from "../Container";
+
 import Footer from "../Footer";
 import SideBar from "./sideBar";
-import classes from "../../styles/courselist.module.css";
+
 import Course from "./courseCard";
 import image1 from "../../assets/Images/CoursePage/Presentation1.jpg";
 import image2 from "../../assets/Images/CoursePage/ch-8.jpg";
@@ -16,11 +16,11 @@ import image9 from "../../assets/Images/CoursePage/b-03.jpg";
 export default function CourseList() {
   return (
     <div>
-      <Container>
+   
         <Navbar />
-        <div className={classes.courseContainer}>
+        <div>
           <SideBar />
-          <div className={classes.courseList}>
+          <div>
             <Course
               image={image1}
               courseName={"স্থির তড়িৎ"}
@@ -69,7 +69,7 @@ export default function CourseList() {
           </div>
         </div>
         <Footer />
-      </Container>
+     
     </div>
   );
 }

@@ -1,0 +1,67 @@
+.logo {
+    width: 150px;
+}
+.search {
+    border-color: #212529;
+}
+.logo-txt {
+    font-family: "Lucida Handwriting", cursive;
+}
+.link-txt {
+    color: darkgray;
+}
+.link-txt:hover {
+    color: black;
+}
+.footer-links {
+    list-style-type: none;
+}
+.fl-sp {
+    margin-left: 20%;
+}
+.link-txt-f:hover{
+    color: white;
+}
+.card-btn {
+    background-color: black;
+    color: white;
+    width: 100%;
+    border-radius: 0 0 6px 6px;
+}
+.card-btn:hover {
+    background-color: white;
+    color: black;
+}
+.card-w {
+    width: 20%;
+}
+.elm-blocking {
+    display: block;
+}
+.elm-blocking-b {
+    display: none;
+}
+.head-l {
+    line-height: 5;
+}
+
+@media screen and (max-width: 578px) {
+    .footer-flex {
+        flex-direction: column-reverse;
+    }
+    .fl-sp {
+        margin-left: 0;
+    }
+    .f-b {
+        border-right: none !important;
+    }
+    .card-w {
+        width: auto;
+    }
+    .elm-blocking {
+        display: none;
+    }
+    .elm-blocking-b {
+        display: block;
+    }
+}
