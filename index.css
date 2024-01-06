@@ -44,6 +44,15 @@
 .head-l {
     line-height: 5;
 }
+.bg-img {
+    background-image: url('/public/backdrop.png');
+}
+.elm-blocking p {
+    font-size: 12px;
+}
+iframe {
+    margin: 20px;
+}
 
 @media screen and (max-width: 578px) {
     .footer-flex {

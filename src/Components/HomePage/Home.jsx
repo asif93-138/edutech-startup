@@ -21,8 +21,8 @@ export default function HomePage() {
     <div>
  
         <Navbar />
-        <section className="text-center text-bg-secondary mb-3 py-5 px-3">
-          <p className="container">
+        <section className="mb-4 py-5 px-3 bg-img text-light text-center">
+          <p className="container pt-3">
               টেকনোলজির এই যুগে আমাদের হাতে সময় এতটাই কম যে , আমরা প্রতিদিন
               আমাদের পাঠ্যবইয়ে চোখ বুলানোর সময়টুকুও হয়ত পাই না। এতে করে নতুন
               জিনিস শেখার প্রতি আমাদের আগ্রহ হারিয়ে যাচ্ছে দিন দিন। তাই লার্ন
@@ -33,57 +33,11 @@ export default function HomePage() {
               আর দেরী কেনো, কোমর বেঁধে লেগে পড়ো লার্ন ডেইলির সাথে আর--
           </p>
           <h2 className="container">"শিখতে থাকো প্রতিদিন"</h2>
-        </section>
-        <section className="container">
-          <h3 className='text-center'>আমাদের টপ রেটেড কোর্সসমূহ</h3>
-          <div className="d-sm-flex justify-<b>content-bet</b>ween">
-          <div className="card text-center m-4 card-w">
-    <img className="card-img-top" src={Course1} alt="Card image" style={{width: "100%"}} />
-    <div className="card-body p-0">
-      <p className="card-text m-0">মূল্য : ৳ ৫০.০০</p>
-      <p className="card-text m-0">ব্যাপ্তি: ১ সপ্তাহ</p>
-      <p className="card-text m-0">ইনস্ট্রাক্টর</p>
-      <p className="card-text m-0">ওসমানী মেডিকেল কলেজ, সিলেট</p>
-      <a href="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></a>
-    </div>
-  </div>
-  <div className="card text-center m-4 card-w">
-    <img className="card-img-top" src={Course1} alt="Card image" style={{width: "100%"}} />
-    <div className="card-body p-0">
-      <p className="card-text m-0">মূল্য : ৳ ৫০.০০</p>
-      <p className="card-text m-0">ব্যাপ্তি: ১ সপ্তাহ</p>
-      <p className="card-text m-0">ইনস্ট্রাক্টর</p>
-      <p className="card-text m-0">ওসমানী মেডিকেল কলেজ, সিলেট</p>
-      <a href="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></a>
-    </div>
-  </div>
-  <div className="card text-center m-4 card-w">
-    <img className="card-img-top" src={Course1} alt="Card image" style={{width: "100%"}} />
-    <div className="card-body p-0">
-      <p className="card-text m-0">মূল্য : ৳ ৫০.০০</p>
-      <p className="card-text m-0">ব্যাপ্তি: ১ সপ্তাহ</p>
-      <p className="card-text m-0">ইনস্ট্রাক্টর</p>
-      <p className="card-text m-0">ওসমানী মেডিকেল কলেজ, সিলেট</p>
-      <a href="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></a>
-    </div>
-  </div>
-  <div className="card text-center m-4 card-w">
-    <img className="card-img-top" src={Course1} alt="Card image" style={{width: "100%"}} />
-    <div className="card-body p-0">
-      <p className="card-text m-0">মূল্য : ৳ ৫০.০০</p>
-      <p className="card-text m-0">ব্যাপ্তি: ১ সপ্তাহ</p>
-      <p className="card-text m-0">ইনস্ট্রাক্টর</p>
-      <p className="card-text m-0">ওসমানী মেডিকেল কলেজ, সিলেট</p>
-      <a href="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></a>
-    </div>
-  </div>
-          </div>
-        </section>
-        <section className='container elm-blocking'>
-        <h3 className='text-center'>আমাদের টপ রেটেড কোর্সসমূহ</h3>
+          <section className='container elm-blocking'>
+        <h3 className='text-center pt-4'>আমাদের টপ রেটেড কোর্সসমূহ</h3>
         <Swiper
-        slidesPerView={3}
-        spaceBetween={30}
+        slidesPerView={5}
+        spaceBetween={0}
         pagination={{
           clickable: true,
         }}
@@ -91,7 +45,7 @@ export default function HomePage() {
         className="mySwiper"
       >
         <SwiperSlide>
-            <div className="card text-center m-4">
+            <div className="card text-center my-4 mx-3">
     <img className="card-img-top" src={Course1} alt="Card image" style={{width: "100%"}} />
     <div className="card-body p-0">
       <p className="card-text m-0">মূল্য : ৳ ৫০.০০</p>
@@ -103,7 +57,7 @@ export default function HomePage() {
   </div>
         </SwiperSlide>
         <SwiperSlide>
-            <div className="card text-center m-4">
+            <div className="card text-center my-4 mx-3">
     <img className="card-img-top" src={Course1} alt="Card image" style={{width: "100%"}} />
     <div className="card-body p-0">
       <p className="card-text m-0">মূল্য : ৳ ৫০.০০</p>
@@ -115,7 +69,7 @@ export default function HomePage() {
   </div>
         </SwiperSlide>
         <SwiperSlide>
-            <div className="card text-center m-4">
+            <div className="card text-center my-4 mx-3">
     <img className="card-img-top" src={Course1} alt="Card image" style={{width: "100%"}} />
     <div className="card-body p-0">
       <p className="card-text m-0">মূল্য : ৳ ৫০.০০</p>
@@ -127,7 +81,7 @@ export default function HomePage() {
   </div>
         </SwiperSlide>
         <SwiperSlide>
-            <div className="card text-center m-4">
+            <div className="card text-center my-4 mx-3">
     <img className="card-img-top" src={Course1} alt="Card image" style={{width: "100%"}} />
     <div className="card-body p-0">
       <p className="card-text m-0">মূল্য : ৳ ৫০.০০</p>
@@ -139,7 +93,7 @@ export default function HomePage() {
   </div>
         </SwiperSlide>
         <SwiperSlide>
-            <div className="card text-center m-4">
+            <div className="card text-center my-4 mx-3">
     <img className="card-img-top" src={Course1} alt="Card image" style={{width: "100%"}} />
     <div className="card-body p-0">
       <p className="card-text m-0">মূল্য : ৳ ৫০.০০</p>
@@ -151,7 +105,7 @@ export default function HomePage() {
   </div>
         </SwiperSlide>
         <SwiperSlide>
-            <div className="card text-center m-4">
+            <div className="card text-center my-4 mx-3">
     <img className="card-img-top" src={Course1} alt="Card image" style={{width: "100%"}} />
     <div className="card-body p-0">
       <p className="card-text m-0">মূল্য : ৳ ৫০.০০</p>
@@ -163,7 +117,7 @@ export default function HomePage() {
   </div>
         </SwiperSlide>
         <SwiperSlide>
-            <div className="card text-center m-4">
+            <div className="card text-center my-4 mx-3">
     <img className="card-img-top" src={Course1} alt="Card image" style={{width: "100%"}} />
     <div className="card-body p-0">
       <p className="card-text m-0">মূল্য : ৳ ৫০.০০</p>
@@ -175,7 +129,7 @@ export default function HomePage() {
   </div>
         </SwiperSlide>
         <SwiperSlide>
-            <div className="card text-center m-4">
+            <div className="card text-center my-4 mx-3">
     <img className="card-img-top" src={Course1} alt="Card image" style={{width: "100%"}} />
     <div className="card-body p-0">
       <p className="card-text m-0">মূল্য : ৳ ৫০.০০</p>
@@ -187,7 +141,7 @@ export default function HomePage() {
   </div>
         </SwiperSlide>
         <SwiperSlide>
-            <div className="card text-center m-4">
+            <div className="card text-center my-4 mx-3">
     <img className="card-img-top" src={Course1} alt="Card image" style={{width: "100%"}} />
     <div className="card-body p-0">
       <p className="card-text m-0">মূল্য : ৳ ৫০.০০</p>
@@ -201,9 +155,9 @@ export default function HomePage() {
       </Swiper>
         </section>
         <section className='container elm-blocking-b'>
-        <h3 className='text-center'>আমাদের টপ রেটেড কোর্সসমূহ</h3>
+        <h3 className='text-center pt-4'>আমাদের টপ রেটেড কোর্সসমূহ</h3>
         
-<div id="demo" className="carousel slide m-3" data-bs-ride="carousel">
+<div id="demo" className="carousel slide m-4" data-bs-ride="carousel">
   
   
   <div className="carousel-inner">
@@ -266,6 +220,9 @@ export default function HomePage() {
   </button>
 </div>
         </section>
+        </section>
+
+
         <section className='container mt-4'>
         <h3 className='text-center'>আমাদের টপ রেটেড কোর্সসমূহ</h3>
         <div className='d-sm-flex justify-content-center'>
@@ -301,6 +258,13 @@ export default function HomePage() {
             <button type='button' className='btn position-absolute top-50 end-0 translate-middle-y'><i className="bi bi-chevron-right"></i></button>
           </article>
           </div>
+        </div>
+        </section>
+        <section>
+        <div className='text-center'>
+        <iframe width="280" height="158" className='rounded' src="https://www.youtube.com/embed/sS5KYVGtAcQ?si=fIWpZQHZwA648kwP" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+        <iframe width="280" height="158" className='rounded' src="https://www.youtube.com/embed/sS5KYVGtAcQ?si=fIWpZQHZwA648kwP" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+        <iframe width="280" height="158" className='rounded' src="https://www.youtube.com/embed/sS5KYVGtAcQ?si=fIWpZQHZwA648kwP" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
         </div>
         </section>
         <Footer />
