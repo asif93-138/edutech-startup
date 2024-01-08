@@ -62,6 +62,9 @@ iframe {
 .w-80 {
     width: 85%;
 }
+.sp:hover {
+    text-decoration: underline;
+}
 
 @media screen and (max-width: 578px) {
     .footer-flex {
@@ -95,5 +98,9 @@ iframe {
     }
     .w-cstm {
         width: auto;
+    }
+    .frm-sz {
+        width: 95% !important;
+        margin: 100px auto;
     }
 }
