@@ -1,53 +1,65 @@
 
 export default function SideBar() {
+  function btnFt() {
+    document.getElementById('btn-1').className = 'd-none';
+    document.getElementById('btn-2').className = 'btn elm-blocking-b mx-2';
+    document.getElementById('res-drop-m').className = '';
+  }
+  function btnSd() {
+    document.getElementById('btn-1').className = 'btn elm-blocking-b mx-2';
+    document.getElementById('btn-2').className = 'd-none';
+    document.getElementById('res-drop-m').className = 'elm-blocking';
+  }
   return (
-    <div>
+    <div className="bg-light text-center w-cstm">
       <div>
-        <h1>কোর্স খুঁজুন</h1>
+        <div className="d-flex justify-content-center"><h4 className="py-3">কোর্স খুঁজুন</h4><button onClick={btnFt} id="btn-1" type="button" className="btn elm-blocking-b mx-2"><i className="bi bi-chevron-down"></i></button><button onClick={btnSd} id="btn-2" type="button" className="btn d-none elm-blocking-b mx-2"><i className="bi bi-chevron-up"></i></button></div>
+        <div id="res-drop-m" className="elm-blocking">
         <div>
-          <h2>কোর্স টাইপ:</h2>
+          <h5  className="py-2">কোর্স টাইপ:</h5>
           <div>
-            <input type="checkbox" id="checkbox" name="checkbox" />
-            <label htmlFor="checkbox">মিনি কোর্স</label>
+            <button type="button" className="my-1 w-75 btn btn-outline-dark card-btn rounded">মিনি কোর্স</button>
+            
           </div>
           <div>
-            <input type="checkbox" id="checkbox" name="checkbox" />
-            <label htmlFor="checkbox">লং কোর্স</label>
+            <button type="button" className="my-1 w-75 btn btn-outline-dark card-btn rounded">লং কোর্স</button>
+            
           </div>
         </div>
         <div>
-          <h2>শ্রেণি:</h2>
+          <h5  className="py-2">শ্রেণি:</h5>
           <div>
-            <input type="checkbox" id="checkbox" name="checkbox" />
-            <label htmlFor="checkbox">৯ম-১০ম শ্রেণি</label>
+            <button type="button" className="my-1 w-75 btn btn-outline-dark card-btn rounded">৯ম-১০ম শ্রেণি</button>
+            
           </div>
           <div>
-            <input type="checkbox" id="checkbox" name="checkbox" />
-            <label htmlFor="checkbox">একাদশ-দ্বাদশ</label>
+            <button type="button" className="my-1 w-75 btn btn-outline-dark card-btn rounded">একাদশ-দ্বাদশ</button>
+            
           </div>
           <div>
-            <input type="checkbox" id="checkbox" name="checkbox" />
-            <label htmlFor="checkbox">এডমিশন</label>
+            <button type="button" className="my-1 w-75 btn btn-outline-dark card-btn rounded">এডমিশন</button>
+            
           </div>
           <div>
-            <input type="checkbox" id="checkbox" name="checkbox" />
-            <label htmlFor="checkbox">৬ষ্ঠ-৮ম</label>
+            <button type="button" className="my-1 w-75 btn btn-outline-dark card-btn rounded">৬ষ্ঠ-৮ম</button>
+            
           </div>
         </div>
         <div>
-          <h2>বিভাগ:</h2>
+          <h5  className="py-2">বিভাগ:</h5>
           <div>
-            <input type="checkbox" id="checkbox" name="checkbox" />
-            <label htmlFor="checkbox">বিজ্ঞান</label>
+            <button type="button" className="my-1 w-75 btn btn-outline-dark card-btn rounded">বিজ্ঞান</button>
+            
           </div>
           <div>
-            <input type="checkbox" id="checkbox" name="checkbox" />
-            <label htmlFor="checkbox">মানবিক</label>
+            <button type="button" className="my-1 w-75 btn btn-outline-dark card-btn rounded">মানবিক</button>
+            
           </div>
           <div>
-            <input type="checkbox" id="checkbox" name="checkbox" />
-            <label htmlFor="checkbox">বাণিজ্য</label>
+            <button type="button" className="my-1 w-75 btn btn-outline-dark card-btn rounded">বাণিজ্য</button>
+            
           </div>
+        </div>
         </div>
       </div>
     </div>

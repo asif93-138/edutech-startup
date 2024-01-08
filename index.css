@@ -53,6 +53,15 @@
 iframe {
     margin: 20px;
 }
+.w-cstm {
+    width: 15%;
+}
+.w-30 {
+    width: 30%;
+}
+.w-80 {
+    width: 85%;
+}
 
 @media screen and (max-width: 578px) {
     .footer-flex {
@@ -72,5 +81,19 @@ iframe {
     }
     .elm-blocking-b {
         display: block;
+    }
+    .w-80 {
+        width: 100%;
+    }
+    .w-30 {
+        width: auto;
+        margin: 40px;
+    }
+    .d-ex {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important; 
+    }
+    .w-cstm {
+        width: auto;
     }
 }
