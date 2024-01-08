@@ -65,6 +65,16 @@ iframe {
 .sp:hover {
     text-decoration: underline;
 }
+.active {
+    color: black;
+    font-weight: 600;
+    padding: 8px;
+    text-decoration: none;
+    display: block;
+}
+.active-log button {
+    font-weight: 600;
+}
 
 @media screen and (max-width: 578px) {
     .footer-flex {

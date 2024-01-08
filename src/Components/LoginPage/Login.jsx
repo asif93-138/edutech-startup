@@ -1,6 +1,7 @@
 import icon from '../../assets/Images/Login Page/login-icon.png';
 import Navbar from "../Navbar";
 import Footer from "../Footer";
+import { Link } from "react-router-dom";
 export default function Login() {
   return (
     <div>
@@ -20,7 +21,7 @@ export default function Login() {
     </div>
     <button type="submit" className="btn btn-outline-dark mb-3 card-btn rounded w-100">Submit</button>
     <p><b>Don't have an account?</b></p>
-    <div><b>Please, <a href='/signup' className='btn p-0 sp mb-1 ms-2'><h5 className='d-inline m-0'>Sign Up</h5></a></b></div>
+    <div><b>Please, <Link to='/signup' className='btn p-0 sp mb-1 ms-2'><h5 className='d-inline m-0'>Sign Up</h5></Link></b></div>
   </form>
         </div>
         <Footer />

@@ -1,5 +1,5 @@
 import Navbar from "../Navbar";
-
+import { Link } from "react-router-dom";
 import Footer from "../Footer";
 import SideBar from "./sideBar";
 
@@ -27,7 +27,7 @@ export default function CourseList() {
               <div className="card-body p-0">
                 <p className="card-text m-0">মূল্য : ৳ ৫০.০০</p>
                 <p className="card-text m-0">স্থির তড়িৎ</p>
-                <a href="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></a>
+                <Link to="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></Link>
               </div>
             </div>
             <div className="card text-center w-30">
@@ -35,7 +35,7 @@ export default function CourseList() {
               <div className="card-body p-0">
                 <p className="card-text m-0">মূল্য : ৳ ৫০.০০</p>
                 <p className="card-text m-0">আধুনিক পদার্থবিজ্ঞানের সূচনা</p>
-                <a href="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></a>
+                <Link to="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></Link>
               </div>
             </div>
             <div className="card text-center w-30">
@@ -43,7 +43,7 @@ export default function CourseList() {
               <div className="card-body p-0">
                 <p className="card-text m-0">মূল্য : ৳ ৫০.০০</p>
                 <p className="card-text m-0">তাপগতিবিদ্যা</p>
-                <a href="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></a>
+                <Link to="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></Link>
               </div>
             </div>
             </div>
@@ -53,7 +53,7 @@ export default function CourseList() {
               <div className="card-body p-0">
                 <p className="card-text m-0">মূল্য : ৳ ৫০.০০</p>
                 <p className="card-text m-0">গুনগত রসায়ন (পর্ব ১)</p>
-                <a href="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></a>
+                <Link to="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></Link>
               </div>
             </div>
             <div className="card text-center w-30">
@@ -61,7 +61,7 @@ export default function CourseList() {
               <div className="card-body p-0">
                 <p className="card-text m-0">মূল্য : ৳ ৫০.০০</p>
                 <p className="card-text m-0">গুনগত রসায়ন (পর্ব ২)</p>
-                <a href="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></a>
+                <Link to="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></Link>
               </div>
             </div>
             <div className="card text-center w-30">
@@ -69,7 +69,7 @@ export default function CourseList() {
               <div className="card-body p-0">
                 <p className="card-text m-0">মূল্য : ৳ ৫০.০০</p>
                 <p className="card-text m-0">গুনগত রসায়ন (পর্ব ৩)</p>
-                <a href="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></a>
+                <Link to="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></Link>
               </div>
             </div>
             </div>
@@ -79,7 +79,7 @@ export default function CourseList() {
               <div className="card-body p-0">
                 <p className="card-text m-0">মূল্য : ৳ ৫০.০০</p>
                 <p className="card-text m-0">কোষ ও কোষের গঠন</p>
-                <a href="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></a>
+                <Link to="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></Link>
               </div>
             </div>
             <div className="card text-center w-30">
@@ -87,7 +87,7 @@ export default function CourseList() {
               <div className="card-body p-0">
                 <p className="card-text m-0">মূল্য : ৳ ৫০.০০</p>
                 <p className="card-text m-0">কোষ বিভাজন</p>
-                <a href="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></a>
+                <Link to="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></Link>
               </div>
             </div>
             <div className="card text-center w-30">
@@ -95,7 +95,7 @@ export default function CourseList() {
               <div className="card-body p-0">
                 <p className="card-text m-0">মূল্য : ৳ ৫০.০০</p>
                 <p className="card-text m-0">রক্ত ও রক্ত সংবহন্তন্ত্র</p>
-                <a href="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></a>
+                <Link to="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></Link>
               </div>
             </div>
           </div>

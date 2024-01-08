@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import { Link } from "react-router-dom";
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -52,7 +52,7 @@ export default function HomePage() {
       <p className="card-text m-0">ব্যাপ্তি: ১ সপ্তাহ</p>
       <p className="card-text m-0">ইনস্ট্রাক্টর</p>
       <p className="card-text m-0">ওসমানী মেডিকেল কলেজ, সিলেট</p>
-      <a href="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></a>
+      <Link to="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></Link>
     </div>
   </div>
         </SwiperSlide>
@@ -64,7 +64,7 @@ export default function HomePage() {
       <p className="card-text m-0">ব্যাপ্তি: ১ সপ্তাহ</p>
       <p className="card-text m-0">ইনস্ট্রাক্টর</p>
       <p className="card-text m-0">ওসমানী মেডিকেল কলেজ, সিলেট</p>
-      <a href="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></a>
+      <Link to="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></Link>
     </div>
   </div>
         </SwiperSlide>
@@ -76,7 +76,7 @@ export default function HomePage() {
       <p className="card-text m-0">ব্যাপ্তি: ১ সপ্তাহ</p>
       <p className="card-text m-0">ইনস্ট্রাক্টর</p>
       <p className="card-text m-0">ওসমানী মেডিকেল কলেজ, সিলেট</p>
-      <a href="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></a>
+      <Link to="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></Link>
     </div>
   </div>
         </SwiperSlide>
@@ -88,7 +88,7 @@ export default function HomePage() {
       <p className="card-text m-0">ব্যাপ্তি: ১ সপ্তাহ</p>
       <p className="card-text m-0">ইনস্ট্রাক্টর</p>
       <p className="card-text m-0">ওসমানী মেডিকেল কলেজ, সিলেট</p>
-      <a href="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></a>
+      <Link to="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></Link>
     </div>
   </div>
         </SwiperSlide>
@@ -100,7 +100,7 @@ export default function HomePage() {
       <p className="card-text m-0">ব্যাপ্তি: ১ সপ্তাহ</p>
       <p className="card-text m-0">ইনস্ট্রাক্টর</p>
       <p className="card-text m-0">ওসমানী মেডিকেল কলেজ, সিলেট</p>
-      <a href="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></a>
+      <Link to="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></Link>
     </div>
   </div>
         </SwiperSlide>
@@ -112,7 +112,7 @@ export default function HomePage() {
       <p className="card-text m-0">ব্যাপ্তি: ১ সপ্তাহ</p>
       <p className="card-text m-0">ইনস্ট্রাক্টর</p>
       <p className="card-text m-0">ওসমানী মেডিকেল কলেজ, সিলেট</p>
-      <a href="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></a>
+      <Link to="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></Link>
     </div>
   </div>
         </SwiperSlide>
@@ -124,7 +124,7 @@ export default function HomePage() {
       <p className="card-text m-0">ব্যাপ্তি: ১ সপ্তাহ</p>
       <p className="card-text m-0">ইনস্ট্রাক্টর</p>
       <p className="card-text m-0">ওসমানী মেডিকেল কলেজ, সিলেট</p>
-      <a href="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></a>
+      <Link to="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></Link>
     </div>
   </div>
         </SwiperSlide>
@@ -136,7 +136,7 @@ export default function HomePage() {
       <p className="card-text m-0">ব্যাপ্তি: ১ সপ্তাহ</p>
       <p className="card-text m-0">ইনস্ট্রাক্টর</p>
       <p className="card-text m-0">ওসমানী মেডিকেল কলেজ, সিলেট</p>
-      <a href="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></a>
+      <Link to="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></Link>
     </div>
   </div>
         </SwiperSlide>
@@ -148,7 +148,7 @@ export default function HomePage() {
       <p className="card-text m-0">ব্যাপ্তি: ১ সপ্তাহ</p>
       <p className="card-text m-0">ইনস্ট্রাক্টর</p>
       <p className="card-text m-0">ওসমানী মেডিকেল কলেজ, সিলেট</p>
-      <a href="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></a>
+      <Link to="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></Link>
     </div>
   </div>
         </SwiperSlide>
@@ -169,7 +169,7 @@ export default function HomePage() {
       <p className="card-text m-0">ব্যাপ্তি: ১ সপ্তাহ</p>
       <p className="card-text m-0">ইনস্ট্রাক্টর</p>
       <p className="card-text m-0">ওসমানী মেডিকেল কলেজ, সিলেট</p>
-      <a href="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></a>
+      <Link to="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></Link>
     </div>
   </div>
     </div>
@@ -181,7 +181,7 @@ export default function HomePage() {
       <p className="card-text m-0">ব্যাপ্তি: ১ সপ্তাহ</p>
       <p className="card-text m-0">ইনস্ট্রাক্টর</p>
       <p className="card-text m-0">ওসমানী মেডিকেল কলেজ, সিলেট</p>
-      <a href="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></a>
+      <Link to="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></Link>
     </div>
   </div>
     </div>
@@ -193,7 +193,7 @@ export default function HomePage() {
       <p className="card-text m-0">ব্যাপ্তি: ১ সপ্তাহ</p>
       <p className="card-text m-0">ইনস্ট্রাক্টর</p>
       <p className="card-text m-0">ওসমানী মেডিকেল কলেজ, সিলেট</p>
-      <a href="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></a>
+      <Link to="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></Link>
     </div>
   </div>
     </div>
@@ -205,7 +205,7 @@ export default function HomePage() {
       <p className="card-text m-0">ব্যাপ্তি: ১ সপ্তাহ</p>
       <p className="card-text m-0">ইনস্ট্রাক্টর</p>
       <p className="card-text m-0">ওসমানী মেডিকেল কলেজ, সিলেট</p>
-      <a href="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></a>
+      <Link to="#" className=""><button type="button" className="btn btn-outline-dark card-btn">View Details</button></Link>
     </div>
   </div>
       </div>

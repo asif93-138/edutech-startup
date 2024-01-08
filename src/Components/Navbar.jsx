@@ -1,11 +1,11 @@
 
 import Logo from "../assets/Images/Home Page/Learn Daily.jpg";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-sm navbar-light bg-light">
     <div className="container">
-      <a className="navbar-brand me-5" href="/"><h5 className="logo-txt m-0"><b>Learn Daily</b></h5></a>
+      <Link className="navbar-brand me-5" to="/"><h5 className="logo-txt m-0"><b>Learn Daily</b></h5></Link>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
         <span className="navbar-toggler-icon"></span>
       </button>
@@ -18,19 +18,19 @@ export default function Navbar() {
       </div>
         <ul className="navbar-nav me-2">
           <li className="nav-item">
-            <a className="nav-link link-txt" href="/">Home</a>
+            <NavLink className={({isActive}) => isActive ? "active" : "nav-link link-txt"} to="/">Home</NavLink>
           </li>
           <li className="nav-item">
-            <a className="nav-link link-txt" href="/about">About</a>
+            <NavLink className={({isActive}) => isActive ? "active" : "nav-link link-txt"} to="/about">About</NavLink>
           </li>
           <li className="nav-item">
-            <a className="nav-link link-txt" href="/courselist">Courses</a>
+            <NavLink className={({isActive}) => isActive ? "active" : "nav-link link-txt"} to="/courselist">Courses</NavLink>
           </li>
           <li className="nav-item">
-            <a className="nav-link link-txt" href="/contact">Contact</a>
+            <NavLink className={({isActive}) => isActive ? "active" : "nav-link link-txt"} to="/contact">Contact</NavLink>
           </li>
         </ul>
-  <a href="/login"><button type="button" className="btn btn-outline-dark">Log in</button></a>
+  <NavLink className={({isActive}) => isActive ? "active-log" : ""} to="/login"><button type="button" className="btn btn-outline-dark">Log in</button></NavLink>
       </div>
     </div>
   </nav>

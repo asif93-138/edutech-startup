@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 import footerLogo from "../assets/Images/Home Page/Learn_Daily_black-removebg-preview.png";
 export default function Footer() {
   return (
@@ -13,16 +13,16 @@ export default function Footer() {
       </p>
       <ul className="d-flex footer-links p-0">
           <li className="nav-item px-2">
-            <a className="nav-link link-txt link-txt-f" href="/">Home</a>
+            <Link className="nav-link link-txt link-txt-f" to="/">Home</Link>
           </li>
           <li className="nav-item px-2">
-            <a className="nav-link link-txt link-txt-f" href="/about">About</a>
+            <Link className="nav-link link-txt link-txt-f" to="/about">About</Link>
           </li>
           <li className="nav-item px-2">
-            <a className="nav-link link-txt link-txt-f" href="/courselist">Courses</a>
+            <Link className="nav-link link-txt link-txt-f" to="/courselist">Courses</Link>
           </li>
           <li className="nav-item px-2">
-            <a className="nav-link link-txt link-txt-f" href="/contact">Contact</a>
+            <Link className="nav-link link-txt link-txt-f" to="/contact">Contact</Link>
           </li>
         </ul>
      </article>
